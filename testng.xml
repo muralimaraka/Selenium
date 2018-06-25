@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="BookAdultTiket">
+    <classes>
+      <class name="com.jksoft.selenium.BookTickets"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="BookChildTiket">
+    <classes>
+      <class name="com.jksoft.selenium.BookChildTickets"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
